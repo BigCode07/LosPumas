@@ -1,0 +1,11 @@
+.gridProducts {
+  height: 20%;
+  display: grid;
+  grid: wrap;
+}
+
+.buttonProduct {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

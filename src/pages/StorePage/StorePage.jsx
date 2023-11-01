@@ -1,6 +1,6 @@
 import "./StorePage.css";
 import imgStore from "../../assets/PortadaStore.png";
-
+import ProductListContainer from "../../components/ProductListContainer";
 const StorePage = () => {
   return (
     <div className="StorePage">
@@ -12,6 +12,7 @@ const StorePage = () => {
         />
         <h1 className="h1PortadaStore">Tienda</h1>
       </div>
+      <ProductListContainer />
     </div>
   );
 };
