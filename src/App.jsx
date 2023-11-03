@@ -14,6 +14,7 @@ import StorePage from "./pages/StorePage/StorePage";
 import TeamPage from "./pages/TeamPage/TeamPage";
 import DetailPage from "./pages/DetailPage/DetailPage";
 
+
 const App = () => {
   return (
     <Router>
@@ -28,6 +29,8 @@ const App = () => {
           <Route path="/players" element={<TeamPage />} />
           <Route path="/detail/:id" element={<DetailPage />} />
         </Routes>
+        
+   
         <Footer />
       </div>
     </Router>

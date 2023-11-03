@@ -13,7 +13,7 @@ import "./Product.css";
 const Product = ({ producto }) => {
   return (
     <Grid item xs={4} className="gridProduct">
-      <Card className="cardProduct" sx={{ maxWidth: 310 }}>
+      <Card className="cardProduct" sx={{ maxWidth: 400 }}>
         <CardActionArea>
           <CardMedia
             component="img"

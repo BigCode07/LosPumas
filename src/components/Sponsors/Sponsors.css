@@ -1,0 +1,14 @@
+.Sponsors{
+    background-color: #0c74ac;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: columns;
+    justify-content: center;
+    height: 25rem;
+}
+
+.titleSponsors{
+    color:white;
+    margin-top: 3rem;
+    
+}

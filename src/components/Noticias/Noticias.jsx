@@ -2,12 +2,12 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
-import { CardActionArea, Grid, Button } from "@mui/material";
+import { CardActionArea, Grid} from "@mui/material";
 import "./Noticias.css";
 const Noticias = ({ news }) => {
   console.log(news);
   return (
-    <Grid item xs={4} className="gridProduct">
+    <Grid item xs={4} className="gridNews">
       <Card sx={{ maxWidth: 400, marginTop: 4 }} className="cardNews">
         <CardActionArea>
           <CardMedia

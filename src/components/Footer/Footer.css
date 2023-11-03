@@ -1,5 +1,5 @@
 .Footer {
-  margin-top: 3rem;
+
   background-color: rgb(2, 2, 27) !important;
   display: flex;
   width: 100%;
@@ -26,6 +26,6 @@
 }
 
 .ul-footer img {
-  width: 2.1rem;
+  width: 3rem;
   padding: 0.5rem;
 }
