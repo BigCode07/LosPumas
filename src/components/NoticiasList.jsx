@@ -1,13 +1,17 @@
-import React from "react";
-import News from "./News";
+import { Grid, Container } from "@mui/material";
+import Noticias from "./Noticias/Noticias";
 
 const NoticiasList = ({ noticias }) => {
   return (
-    <div className="ProductList">
-      <div className="productos">
-        {noticias.map((noticias) => (
-          <News noticias={noticias} key={noticias.id} />
-        ))}
+    <div className="NoticiasList">
+      <div className="news">
+        <Container maxWidth="lg">
+          <Grid container spacing={2} className="gridNews">
+            {noticias.map((news) => (
+              <Noticias news={news} key={news.id} />
+            ))}
+          </Grid>
+        </Container>
       </div>
     </div>
   );
